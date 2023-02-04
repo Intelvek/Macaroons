@@ -1,0 +1,897 @@
+@media screen and (max-width: 1380px) {
+    .gift-gradient {
+        width: 70px;
+        height: 70px;
+    }
+
+    .gift-image {
+        right: 17px;
+        bottom: 130px;
+    }
+
+    .soft-texts{
+        position: relative;
+        z-index: 2;
+    }
+
+    /*1024-1229*/
+    @media screen and (max-width: 1229px) {
+        .container {
+            padding-left: 15px;
+            padding-right: 15px;
+            max-width: 1140px;
+        }
+
+        .number .header {
+            display: none;
+        }
+
+        .ten-image img {
+            width: 360px;
+        }
+
+        .header {
+            overflow-x: hidden;
+        }
+
+        .soft-image img {
+            /*  width: 98%; */
+        }
+
+        .gift-image {
+            bottom: 135px;
+        }
+
+        .benefits {
+            display: grid;
+            padding-bottom: 40px;
+            /*grid-template-columns: repeat(auto-fill, minmax(221px, 1fr));*/
+            /*grid-template-columns: repeat(2, minmax(221px, 1fr));*/
+            padding-top: 88px;
+            grid-template-columns: repeat(4, minmax(221px, 1fr));
+            grid-column-gap: 0;
+        }
+
+        .France {
+            overflow: hidden;
+        }
+
+    }
+
+    /*
+    @media screen and (max-width: 1132px){
+        .pies{
+            grid-template-columns: repeat(2, 263px);
+            justify-content: center;
+        }
+    }
+    */
+    @media screen and (max-width: 1170px) {
+        .soft-image:before {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            top: calc(50% - 150px);
+            right: calc(50% - 150px);
+        }
+
+        .soft-image:after {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            top: calc(50% - 150px);
+            right: calc(50% - 150px);
+        }
+    }
+
+
+    @media screen and (max-width: 1100px) {
+        .with-form {
+            padding-right: 80px;
+        }
+
+        .pies {
+            grid-template-columns: repeat(2, 263px);
+            justify-content: center;
+        }
+    }
+
+
+    /*768-1023*/
+    @media screen and (max-width: 1023px) {
+        .container {
+            max-width: 728px;
+        }
+
+        .number-header {
+            display: none;
+        }
+
+        .France {
+            padding-top: 64px;
+            display: block;
+        }
+
+        .France .container {
+            display: block;
+            padding-bottom: 62px;
+        }
+
+        .navigation {
+            padding: 38px 218px 38px 0;
+        }
+
+        .button-class {
+            padding-top: 41px;
+        }
+
+        .soft-image img {
+            margin-left: 184px;
+            margin-top: -70px;
+        }
+
+        .ten-title {
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .ten-description {
+            text-align: center;
+            width: unset;
+            max-width: 671px;
+            padding-top: 61px;
+            margin: 0 auto;
+        }
+
+        .cook-cake {
+            display: block;
+        }
+
+        .ten-image {
+            padding-top: 40px;
+            padding-left: 0;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .benefits {
+            grid-template-columns: repeat(2, 221px);
+            grid-gap: 40px 80px;
+            margin: 0 auto;
+            padding-bottom: 40px;
+            justify-content: center;
+        }
+
+        .benefit-item {
+            text-align: center;
+        }
+
+        .numberOfBen {
+            margin-left: 74px;
+        }
+
+        .pies {
+            padding: 5px 92px 120px 92px;
+        }
+
+        .white-board {
+            flex-direction: row-reverse;
+        }
+
+        .board-image {
+            padding-top: 338px;
+            max-width: 100%;
+            margin-left: -105px;
+            width: 352px;
+            height: 499px;
+        }
+
+        .board-image img {
+            width: 352px;
+            height: 499px;
+        }
+
+        .choice-form {
+            width: 293px;
+        }
+
+        .button-checkout {
+            width: 293px;
+        }
+
+        .with-form {
+            padding-right: 85px;
+        }
+
+        .your-choice {
+            width: 295px;
+        }
+
+        .data {
+            width: 295px;
+        }
+
+        .toOrder {
+            padding-bottom: 0;
+        }
+
+        .strawberry {
+            position: absolute;
+            left: 610px;
+            top: 231px;
+        }
+
+        .benefit-description {
+            padding-bottom: 80px;
+        }
+
+        .dop-straw-image {
+            top: 309px;
+            left: 352px;
+        }
+    }
+
+    @media screen and (max-width: 1022px) {
+        .soft-image:before {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            top: calc(50% - 200px);
+            right: calc(50% - 200px);
+        }
+
+        .soft-image:after {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            top: calc(50% - 200px);
+            right: calc(50% - 200px);
+        }
+
+        .logo {
+            margin-right: 103px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .board-image {
+        display: none;
+    }
+
+    .strawberry {
+        display: none;
+    }
+
+    .white-board {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .with-form {
+        padding: 0;
+    }
+
+    .toOrder {
+        padding-bottom: 80px;
+        padding-top: 100px;
+    }
+
+    .dop-straw-image {
+        top: 152px;
+        left: unset;
+        right: 31px;
+        width: 72px;
+    }
+
+    .dop-straw-image img {
+        max-width: 100%;
+    }
+
+    .toOrder .container {
+        position: relative;
+        max-width: 405px;
+    }
+
+    .soft-image img {
+        margin-left: 97px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .soft-image {
+        width: 350px;
+        margin-left: 100px;
+
+        position: relative;
+        z-index: 0;
+
+    }
+
+    @media screen and (max-width: 605px) {
+        .pies {
+            grid-template-columns: repeat(1, 263px);
+            justify-content: center;
+        }
+    }
+
+    @media screen and (max-width: 575px) {
+
+        .soft-title {
+            font-size: 55px;
+            font-family: "Tavolga", sans-serif;
+            color: rgb(255, 255, 255);
+            width: unset;
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+
+
+        .benefits {
+            grid-template-columns: repeat(2, 211px);
+            grid-gap: 40px 33px;
+        }
+
+        .soft-title {
+            font-size: 38px;
+            width: 540px;
+        }
+
+        .header .container {
+            margin: 38px 0;
+        }
+
+        .navigation {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.63);
+            z-index: 5;
+            display: none;
+
+        }
+
+        .menu_ {
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 0 auto;
+        }
+
+        .menu-item {
+            margin: 15px 0;
+        }
+
+        .logo-photo img {
+            padding-left: 18px;
+        }
+
+        .logo-photo {
+            display: flex;
+            margin-bottom: 40px;
+        }
+
+        .close {
+            display: block;
+            width: 24px;
+            height: 24px;
+            fill: rgb(51, 25, 7);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .header-container {
+            display: block;
+        }
+
+        .header-container svg {
+            width: 36px;
+            height: 36px;
+            fill: #821328;
+
+        }
+
+        .menu1 .open {
+            display: block;
+        }
+
+        .menu .close {
+            display: block;
+            width: 24px;
+            height: 24px;
+            fill: rgb(164, 107, 0);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .navigation.open {
+            display: block;
+        }
+
+        .navigation. .close {
+            display: block;
+        }
+    }
+
+    @media screen and (max-width: 550px) {
+        .ten-title {
+            font-size: 38px;
+            width: 404px;
+        }
+
+        .benefits {
+            grid-template-columns: repeat(2, 196px);
+        }
+
+        .benefit-item {
+            width: 192px; /*218*/
+        }
+
+        .benefit-description {
+            width: 193px;
+        }
+
+        .numberOfBen {
+            margin-left: 61px;
+        }
+
+        .all-footer{
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .number{
+            position: relative;
+            top: -112px;
+        }
+
+        .rights{
+            top: 100px;
+            position: relative;
+        }
+
+        .logo-photo{
+            margin-bottom: 72px;
+        }
+
+        .logo-photo img{
+            padding-left: 23px;
+        }
+    }
+
+    @media screen and (max-width: 423px) {
+        .navigation.open {
+            display: block;
+        }
+
+        .navigation. .close {
+            display: block;
+        }
+
+        .strawberry {
+            left: 580px;
+        }
+    }
+
+
+
+    /*375-424*/
+    @media screen and (max-width: 424px) {
+        .logo img {
+            padding: 38px 0;
+        }
+
+        .navigation {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            top: 0;
+            left: 0;
+            background: rgba(0, 0, 0, 0.63);
+            z-index: 5;
+            display: none;
+
+        }
+
+        .benefits {
+            grid-gap: 40px 0;
+        }
+
+        .pies {
+            grid-column-gap: 29px;
+        }
+
+        .dop-straw-image {
+            display: none;
+        }
+
+        .gift-image {
+            bottom: 26px;
+        }
+
+        .plashka {
+            font-size: 10px;
+            font-family: "GilroyMedium", sans-serif;
+            color: rgb(119, 10, 29);
+            border-width: 2px;
+            border-color: rgb(119, 10, 29);
+            border-style: solid;
+            border-radius: 10px;
+            background-color: rgb(254, 239, 238);
+            width: 91px;
+            padding: 8px 7px 8px 8px;
+            position: relative;
+            margin-right: 20px;
+            transition: all .4s;
+            opacity: 0;
+            z-index: 2;
+            transform: translateY(150px);
+        }
+
+        .triangle-right-dark {
+            position: absolute;
+            top: 13px;
+            right: -11px;
+        }
+
+        .triangle-right {
+            position: absolute;
+            top: 12px;
+        }
+
+        .soft-image:before {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            top: calc(50% - 100px);
+            right: calc(50% - 100px);
+        }
+
+        .soft-image:after {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            top: calc(50% - 100px);
+            right: calc(50% - 100px);
+        }
+
+        .menu_ {
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            margin: 0 auto;
+        }
+
+        .menu-item {
+            margin: 15px 0;
+        }
+
+        .soft-title {
+            width: 100%;
+            font-size: 32px;
+            line-height: 1.25;
+            text-align: center;
+            -moz-transform: matrix(0.99989743125952, 0, 0, 1, 0, 0);
+            -webkit-transform: matrix(0.99989743125952, 0, 0, 1, 0, 0);
+            -ms-transform: matrix(0.99989743125952, 0, 0, 1, 0, 0);
+        }
+
+        .soft-description {
+            font-size: 16px;
+            color: rgb(255, 255, 255);
+            line-height: 1.438;
+            text-align: center;
+            -moz-transform: matrix(0.99989743125952, 0, 0, 1, 0, 0);
+            -webkit-transform: matrix(0.99989743125952, 0, 0, 1, 0, 0);
+            -ms-transform: matrix(0.99989743125952, 0, 0, 1, 0, 0);
+            width: 100%;
+        }
+
+        .soft-image img {
+            width: 250px;
+            max-width: 100%;
+            margin-top: 38px;
+            margin-left: 0;
+        }
+
+        .choice-button {
+            margin-left: 0;
+        }
+
+        .ten-title {
+            width: unset;
+            font-size: 30px;
+            color: rgb(51, 25, 7);
+            line-height: 1.167;
+            text-align: center;
+            -moz-transform: matrix(1.00064521408317, 0, 0, 1.00046580194703, 0, 0);
+            -webkit-transform: matrix(1.00064521408317, 0, 0, 1.00046580194703, 0, 0);
+            -ms-transform: matrix(1.00064521408317, 0, 0, 1.00046580194703, 0, 0);
+            margin: 0 14px;
+            padding-top: 100px;
+        }
+
+        .ten-description {
+            font-size: 16px;
+            color: rgb(51, 25, 7);
+            line-height: 1.437;
+            text-align: center;
+            -moz-transform: matrix(1.00064521408317, 0, 0, 1.00046580194703, 0, 0);
+            -webkit-transform: matrix(1.00064521408317, 0, 0, 1.00046580194703, 0, 0);
+            -ms-transform: matrix(1.00064521408317, 0, 0, 1.00046580194703, 0, 0);
+            width: 100%;
+            margin-left: 1px;
+            padding-top: 40px;
+        }
+
+        .ten-image {
+            width: unset;
+            max-width: 100%;
+        }
+
+        .ten-image img {
+            width: 302px;
+        }
+
+        .benefit-description {
+            padding-bottom: 35px;
+            padding-top: 20px;
+            font-size: 13px;
+            color: rgb(51, 25, 7);
+            line-height: 1.385;
+            -moz-transform: matrix(0.99962793369538, 0, 0, 0.99848467217063, 0, 0);
+            -webkit-transform: matrix(0.99962793369538, 0, 0, 0.99848467217063, 0, 0);
+            -ms-transform: matrix(0.99962793369538, 0, 0, 0.99848467217063, 0, 0);
+            width: 155px;
+        }
+
+        .benefits {
+            margin: 0;
+            grid-column-gap: 20px;
+            grid-template-columns: repeat(2, 156px);
+        }
+
+        .numberOfBen {
+            margin-left: 45px;
+        }
+
+        .benefit-title {
+            font-size: 18px;
+            color: rgb(51, 25, 7);
+            -moz-transform: matrix(0.99962793369538, 0, 0, 0.99848467217062, 0, 0);
+            -webkit-transform: matrix(0.99962793369538, 0, 0, 0.99848467217062, 0, 0);
+            -ms-transform: matrix(0.99962793369538, 0, 0, 0.99848467217062, 0, 0);
+        }
+
+        .products-title {
+            padding-top: 100px;
+        }
+
+        .benefit-item {
+            width: 156px;
+        }
+
+        .pies {
+            padding: 0 41px 100px 41px;
+        }
+
+        /*нижний отступ для pies примерно 20*/
+        .board-image {
+            display: none;
+        }
+
+        .form-title {
+            font-size: 30px;
+            color: rgb(51, 25, 7);
+            line-height: 1.167;
+            -moz-transform: matrix(0.9997341966831, 0, 0, 1.00124438774545, 0, 0);
+            -webkit-transform: matrix(0.9997341966831, 0, 0, 1.00124438774545, 0, 0);
+            -ms-transform: matrix(0.9997341966831, 0, 0, 1.00124438774545, 0, 0);
+        }
+
+        .description {
+            font-size: 16px;
+            color: rgb(51, 25, 7);
+            line-height: 1.437;
+            -moz-transform: matrix(0.9997341966831, 0, 0, 1.00124438774545, 0, 0);
+            -webkit-transform: matrix(0.9997341966831, 0, 0, 1.00124438774545, 0, 0);
+            -ms-transform: matrix(0.9997341966831, 0, 0, 1.00124438774545, 0, 0);
+            width: 338px;
+            margin-right: 0;
+            padding-top: 44px;
+        }
+
+        .data {
+            margin-right: 0;
+        }
+
+        .with-form {
+            padding: 0 0 0 0;
+        }
+
+        .white-board {
+            flex-direction: row;
+        }
+
+        .your-choice {
+            margin: 0;
+        }
+
+        .white-board {
+            display: block;
+        }
+
+        .form-title {
+            width: 300px;
+            padding-top: 100px;
+        }
+
+        .choice-form {
+            width: 333px;
+        }
+
+        .button-checkout {
+            width: 333px;
+            margin-bottom: 77px;
+        }
+
+        .strawberry {
+            transform: scale(-1, 1);
+            position: absolute;
+            left: 297px;
+            top: 270px;
+        }
+
+
+        .close {
+            display: block;
+            width: 24px;
+            height: 24px;
+            fill: rgb(51, 25, 7);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .header-container {
+            display: block;
+        }
+
+        .header-container svg {
+            width: 36px;
+            height: 36px;
+            fill: #821328;
+
+        }
+
+        .menu1 .open {
+            display: block;
+        }
+
+        .menu .close {
+            display: block;
+            width: 24px;
+            height: 24px;
+            fill: rgb(164, 107, 0);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+    }
+
+    @media screen and (max-width: 424px) {
+        .dop-straw-image {
+            display: block;
+        }
+        .ten-title {
+            width: unset;
+            font-size: 26px;
+        }
+
+        .soft-image{
+            margin-left: 0;
+            text-align: center;
+        }
+
+        .soft-image img{
+            margin-left: 0;
+        }
+
+        .soft-texts{
+            text-align: center;
+        }
+
+        .soft-title{
+            width: 100%;
+        }
+
+        .form-title{
+            padding-top: 0;
+        }
+
+        .toOrder{
+            padding-bottom: 0;
+        }
+
+        .ten-title, .products-title {
+            width: unset;
+            font-size: 30px;
+        }
+    }
+
+    @media screen and (max-width: 350px) {
+
+        .form-title {
+            width: 300px;
+            padding-top: 0;
+        }
+
+        .description {
+            font-size: 14px;
+            width: 319px;
+        }
+
+        .form-title {
+            font-size: 28px;
+        }
+
+        .choice-form {
+            width: 322px;
+        }
+
+        .button-checkout {
+            width: 322px;
+        }
+
+    }
+
+    @media screen and (max-width: 350px) {
+
+        .ten-image img {
+            width: 280px;
+        }
+
+        .ten-image {
+            padding-left: 0;
+        }
+
+        .form-title {
+            width: 287px;
+        }
+
+        .description {
+            font-size: 13px;
+            width: 290px;
+        }
+
+        .choice-form {
+            width: 276px;
+        }
+
+        .button-checkout {
+            width: 276px;
+        }
+
+        .benefits {
+            margin: 0;
+            grid-column-gap: 20px;
+            grid-template-columns: repeat(1, 156px);
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 350px){
+    .dop-straw-image {
+         display: block;
+    }
+}

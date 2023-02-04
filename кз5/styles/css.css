@@ -1,0 +1,684 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Tavolga;
+    src: url("../fonts/Ivan Petrov - Tavolga Free.ttf");
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url("../fonts/gilroy-regular.ttf");
+}
+
+@font-face {
+    font-family: GilroyMedium;
+    src: url("../fonts/gilroy-medium.ttf");
+}
+
+@font-face {
+    font-family: GilroyBold;
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+    font-family: GilroyExtraBold;
+    src: url("../fonts/FontsFree-Net-Gilroy-ExtraBold.ttf");
+}
+
+.body {
+    font-family: 'Tavolga', sans-serif;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #eba8b1;
+}
+
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Tavolga', sans-serif;
+}
+
+.menu_ {
+    list-style: none;
+    display: flex;
+    width: 315px;
+    justify-content: space-between;
+}
+
+.navigation {
+    margin-right: 96px;
+    padding: 38px 0 38px 0;
+}
+
+.number {
+    font-family: 'GilroyBold', sans-serif;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+.menu-item a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "GilroyMedium", sans-serif;
+    color: rgb(119, 11, 29);
+}
+
+.menu-item {
+    box-sizing: border-box;
+    padding-top: 3px;
+    border-bottom: 2px solid transparent;
+    transition-property: border-bottom-color;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+}
+
+.menu-item:hover {
+    display: block;
+    border-bottom-color: #821328;
+}
+
+.France {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 130px;
+    background-color: #eba8b1;
+    overflow: hidden;
+}
+
+.soft-title {
+    font-size: 55px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    width: 580px;
+}
+
+.France .container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 65px; /* &&&&&&&&&&&*/
+}
+
+.soft-description {
+    font-size: 18px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.389;
+    width: 345px;
+    padding-top: 60px;
+}
+
+.btn {
+    background-image: -moz-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -webkit-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    background-image: -ms-linear-gradient(90deg, rgb(113, 8, 30) 0%, rgb(215, 72, 92) 100%);
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(255, 255, 255);
+    border: 0;
+    transition-property: all;
+    transition-duration: 500ms;
+}
+
+.btn:hover {
+    box-shadow: 0px 5px 9px 1px rgba(130, 19, 40, 0.5);
+}
+
+.btn a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(255, 255, 255);
+}
+
+.choice-button {
+    width: 240px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+.button-class {
+    padding-top: 80px;
+}
+
+.soft-image img {
+    width: 100%;
+    margin-left: 14px;
+}
+
+.ten-years {
+    background-color: #ffefef;
+}
+
+.cook-cake {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+.benefits {
+    display: grid;
+    padding-bottom: 90px;
+    /*grid-template-columns: repeat(auto-fill, minmax(221px, 1fr));*/
+    /*grid-template-columns: repeat(2, minmax(221px, 1fr));*/
+    padding-top: 88px;
+    grid-template-columns: repeat(4, minmax(221px, 1fr));
+    grid-column-gap: 87px;
+}
+
+.ten-title {
+    font-size: 45px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.222;
+    width: 475px;
+    padding-top: 119px;
+}
+
+.ten-description {
+    font-size: 18px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    text-align: left;
+    width: 397px;
+    padding-top: 60px;
+}
+
+.ten-image {
+    padding-top: 180px;
+    padding-left: 20px;
+    width: 500px;
+    max-width: 100%;
+}
+
+.benefit-item {
+    width: 220px;
+    height: 250px;
+}
+
+
+.benefit-item:hover .benefit-number::after {
+    color: #821328;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
+
+.benefit-number {
+    z-index: 2;
+
+}
+
+.numberOfBen {
+    display: flex;
+    border-radius: 50%;
+    background-color: rgb(130, 19, 40);
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: flex-end;
+    position: relative;
+    transition: all .4s;
+}
+
+
+.benefit-number {
+    font-size: 60px;
+    font-family: "GilroyExtraBold", sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 0.65;
+    transition: all .4s;
+    position: relative;
+    top: 3px;
+}
+
+.benefit-item:hover .numberOfBen {
+    background-color: #eba8b1;
+}
+
+.benefit-item:hover .benefit-number {
+    color: rgb(130, 19, 40);
+}
+
+.benefit-title {
+    font-size: 20px;
+    font-family: "GilroyExtraBold", sans-serif;
+    color: rgb(51, 25, 7);
+    padding-top: 13px;
+}
+
+.benefit-description {
+    font-size: 15px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.333;
+    width: 220px;
+    padding-top: 20px;
+    padding-bottom: 120px;
+}
+
+.products {
+    background-color: #eba8b1;
+}
+
+.products-title {
+    font-size: 45px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 120px;
+}
+
+.pies {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(248px, 1fr));
+    grid-column-gap: 29px;
+    padding-top: 5px;
+    padding-bottom: 120px;
+}
+
+.product-pie {
+    border-width: 2px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 20px;
+    width: 259px;
+    height: 225px;
+    margin-top: 136px;
+    position: relative;
+}
+
+
+@keyframes pie {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.product-image {
+    position: absolute;
+    left: 35px;
+    bottom: 168px;
+    transition: all .5s;
+}
+
+.product-image-img {
+    max-width: 100%;
+    width: 183px;
+}
+
+.product-pie:hover .product-image {
+    transform: scale(1.1);
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.titleOfDescription {
+    font-size: 18px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 109px;
+}
+
+.price {
+    font-size: 15px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(255, 255, 255);
+    width: 58px;
+    padding-top: 22px;
+    padding-left: 21px;
+    line-height: 2;
+}
+
+.button-order {
+    width: 130px;
+    border-radius: 60px;
+    height: 50px;
+}
+
+.btn-button-order {
+    padding-top: 26px;
+    padding-right: 21px;
+}
+
+.toOrder {
+    background-color: #ffefef;
+    padding-bottom: 120px;
+}
+
+.white-board {
+    display: flex;
+}
+
+.board-image {
+    padding-top: 142px;
+    width: 100%;
+}
+
+.with-form {
+    padding-top: 98px;
+    padding-right: 161px;
+    padding-left: 60px;
+}
+
+.form-title {
+    font-size: 45px;
+    font-family: "Tavolga", sans-serif;
+    color: rgb(51, 25, 7);
+    -moz-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+    -webkit-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+    -ms-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+    width: 406px;
+}
+
+.description {
+    font-size: 18px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(51, 25, 7);
+    line-height: 1.556;
+    -moz-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+    -webkit-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+    -ms-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+    width: 400px;
+    padding-top: 41px;
+}
+
+.your-choice {
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(18, 10, 6);
+    -moz-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+    -webkit-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+    -ms-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+    padding-top: 48px;
+
+}
+
+.choice-form {
+    border-width: 1px;
+    border-color: rgb(130, 19, 40);
+    border-style: solid;
+    border-radius: 30px;
+    width: 293px;
+    height: 59px;
+    background-color: #ffefef;
+    margin-top: 21px;
+    padding: 0 25px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.choice-form::placeholder {
+    font-size: 15px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(118, 12, 34);
+    -moz-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+    -webkit-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+    -ms-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+}
+
+.data {
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(18, 10, 6);
+    -moz-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+    -webkit-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+    -ms-transform: matrix(1.00011967125209, 0, 0, 1.00072983989549, 0, 0);
+    padding-top: 40px;
+}
+
+.button-checkout {
+    width: 295px;
+    height: 61px;
+    border-radius: 60px;
+    margin-top: 15px;
+}
+
+.toOrder .container {
+    position: relative;
+}
+
+.strawberry {
+    position: absolute;
+    right: 156px;
+    bottom: 63px;
+    animation: strawberry-animation 2s infinite alternate linear;
+}
+
+@keyframes strawberry-animation {
+    from {
+        transform: translateY(20px);
+    }
+
+    to {
+        transform: translateY(-20px);
+    }
+}
+
+
+.footer {
+    background-color: #c0707c;
+    position: relative;
+}
+
+.all-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 73px;
+    padding-bottom: 63px;
+}
+
+.rights {
+    font-size: 12px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(227, 172, 180);
+    -moz-transform: matrix(1, 0, 0, 0.99837443537405, 0, 0);
+    -webkit-transform: matrix(1, 0, 0, 0.99837443537405, 0, 0);
+    -ms-transform: matrix(1, 0, 0, 0.99837443537405, 0, 0);
+}
+
+.insta {
+    font-size: 16px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(255, 255, 255);
+    -moz-transform: matrix(1, 0, 0, 0.99837443537405, 0, 0);
+    -webkit-transform: matrix(1, 0, 0, 0.99837443537405, 0, 0);
+    -ms-transform: matrix(1, 0, 0, 0.99837443537405, 0, 0);
+    text-align: center;
+}
+
+
+.soft-image img {
+    max-width: 100%;
+    width: 529px;
+}
+
+.soft-image {
+    position: relative;
+    z-index: 0;
+}
+
+.soft-image:before {
+
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #a82b40;
+    content: '';
+    z-index: -1;
+    animation: pulse 2s infinite;
+    top: calc(50% - 200px);
+    right: calc(50% - 200px);
+}
+
+
+.soft-image:after {
+
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid #a82b40;
+    content: '';
+    z-index: -1;
+    animation: pulse 2s infinite .5s;
+
+    top: calc(50% - 200px);
+    right: calc(50% - 200px);
+}
+
+@keyframes pulse {
+    from {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    to {
+        transform: scale(2);
+        opacity: 0;
+    }
+}
+
+
+.close {
+    display: none;
+}
+
+.header-container {
+    display: none;
+}
+
+
+.France .container {
+    justify-content: space-between;
+}
+
+.cook-cake {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.toOrder .container {
+    position: relative;
+}
+
+.dop-straw-image {
+    top: 142px;
+    left: 30px;
+    position: absolute;
+    animation: strawberry-animation 2s infinite alternate linear;
+}
+
+.gift-gradient {
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background: radial-gradient(#d7485c, #71081e);
+    justify-content: center;
+    transition: all .4s;
+}
+
+.gift-gradient:hover {
+    box-shadow: 0px 0px 12.6px 2.4px rgba(130, 19, 40, 0.5);
+}
+
+.gift-image {
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    display: flex;
+    align-items: center;
+    transition: all .4s;
+}
+
+
+.plashka {
+    font-size: 15px;
+    font-family: "GilroyMedium", sans-serif;
+    color: rgb(119, 10, 29);
+    border-width: 2px;
+    border-color: rgb(119, 10, 29);
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(254, 239, 238);
+    width: 134px;
+    padding: 15px 12px 14px 11px;
+    position: relative;
+    margin-right: 20px;
+    transition: all .4s;
+    opacity: 0;
+    z-index: 2;
+    transform: translateY(150px);
+}
+
+
+.gift-image:hover .plashka {
+    opacity: 1;
+    transform: translateY(0);
+
+
+}
+
+
+.triangle-right {
+    position: absolute;
+    top: 22px;
+    right: -10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 14px solid #feefee;
+    border-bottom: 10px solid transparent;
+    z-index: 3;
+}
+
+
+.triangle-right-dark {
+    position: absolute;
+    top: 23px;
+    right: -12px;
+    width: 0;
+    height: 0;
+    border-top: 9px solid transparent;
+    border-left: 11px solid rgb(119, 10, 29);
+    border-bottom: 9px solid transparent;
+    z-index: 1;
+}
+
+
+.logo-photo {
+    margin-bottom: 19px;
+}
+
+.insta-svg{
+    width: 35px;
+    height: 35px;
+}
